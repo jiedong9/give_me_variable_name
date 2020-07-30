@@ -1,11 +1,17 @@
 {
   "name": "give_me_variable_name",
-  "version": "0.0.1",
-  "main": "index.ts",
+  "version": "0.0.2",
+  "main": "src/index.js",
   "license": "MIT",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
   "scripts": {
     "start": "ts-node-dev src/main.ts"
   },
+  "files": [
+    "dist/**/*.js"
+  ],
   "dependencies": {
     "commander": "^6.0.0",
     "md5": "^2.2.1"
