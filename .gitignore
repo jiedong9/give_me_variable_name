@@ -1,5 +1,3 @@
-/node_modules
-/dist
-/src/private.ts
-/.idea
-*.xml
+/.idea/
+/node_modules/
+/dist/
